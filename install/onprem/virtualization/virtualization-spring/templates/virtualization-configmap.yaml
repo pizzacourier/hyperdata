@@ -26,6 +26,10 @@ data:
       ip: {{ .Values.db.address }}
       port: {{ .Values.db.port }}
       sid: {{ .Values.db.sid }}
+    hdfs:
+      namenode_ip: {{ .Values.hdfs.namenode_ip }}
+      namenode_port: {{ .Values.hdfs.namenode_port }}
 kind: ConfigMap
 metadata:
   name: virtualization-spring-configmap
+

@@ -44,3 +44,8 @@ logging:
 
 version:
   major: 20
+
+hdfs:
+  namenode_ip: 192.168.120.149
+  namenode_port: 52525
+
